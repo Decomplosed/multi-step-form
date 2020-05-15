@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
+import moduleName from 'material-ui/styles/MuiThemeProvider'
+import AppBar from 'material-ui/AppBar'
 
 class FormUserDetails extends Component {
   render() {
-    return <div></div>
+    return (
+      <div>
+        <h1>Form User Details</h1>
+      </div>
+    )
   }
 }
 
