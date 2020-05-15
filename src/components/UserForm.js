@@ -11,6 +11,13 @@ class UserForm extends Component {
     bio: '',
   }
 
+  nextStep = () => {
+    const { step } = this.state
+    this.setState({
+      step: step + 1,
+    })
+  }
+
   render() {
     return <div></div>
   }
