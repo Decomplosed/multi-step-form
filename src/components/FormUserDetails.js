@@ -21,6 +21,7 @@ class FormUserDetails extends Component {
             hintText='Enter your first name'
             floatingLabelText='First name'
             onChange={handleChange('firstName')}
+            defaultValue={values.firstName}
           />
         </Fragment>
       </MuiThemeProvider>
