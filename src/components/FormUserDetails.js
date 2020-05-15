@@ -23,6 +23,14 @@ class FormUserDetails extends Component {
             onChange={handleChange('firstName')}
             defaultValue={values.firstName}
           />
+          <br />
+          <TextField
+            hintText='Enter your last name'
+            floatingLabelText='Last name'
+            onChange={handleChange('lastName')}
+            defaultValue={values.lastName}
+          />
+          <br />
         </Fragment>
       </MuiThemeProvider>
     )
