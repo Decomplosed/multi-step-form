@@ -11,12 +11,17 @@ class FormUserDetails extends Component {
   }
 
   render() {
-    const { values } = this.props
+    const { values, handleChange } = this.props
 
     return (
       <MuiThemeProvider>
         <Fragment>
           <AppBar title='Enter User Details' />
+          <TextField
+            hintText='Enter your first name'
+            floatingLabelText='First name'
+            onChange={handleChange('firstName')}
+          />
         </Fragment>
       </MuiThemeProvider>
     )
