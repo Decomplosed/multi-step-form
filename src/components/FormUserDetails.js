@@ -15,7 +15,9 @@ class FormUserDetails extends Component {
 
     return (
       <MuiThemeProvider>
-        <h1>Form User Details</h1>
+        <Fragment>
+          <AppBar title='Enter User Details' />
+        </Fragment>
       </MuiThemeProvider>
     )
   }
