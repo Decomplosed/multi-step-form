@@ -33,11 +33,18 @@ class UserForm extends Component {
     this.setState({ [input]: e.target.value })
   }
 
-  switch(step) {
-    case 1:
-      return (
-        <FormUserDetails />
-      )
+  render() {
+    switch (step) {
+      case 1:
+        return (
+          <FormUserDetails
+            nextStep={this.nextStep}
+            handleChange={this.handleChange}
+          />
+        )
+      default:
+        return null
+    }
   }
 }
 
