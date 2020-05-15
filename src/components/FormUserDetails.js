@@ -14,9 +14,9 @@ class FormUserDetails extends Component {
     const { values } = this.props
 
     return (
-      <div>
+      <MuiThemeProvider>
         <h1>Form User Details</h1>
-      </div>
+      </MuiThemeProvider>
     )
   }
 }
