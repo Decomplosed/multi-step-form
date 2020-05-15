@@ -13,6 +13,8 @@ class UserForm extends Component {
 
   nextStep = () => {
     const { step } = this.state
+    const { firstName, lastName, email, occupation, city, bio } = this.state
+    
     this.setState({
       step: step + 1,
     })
