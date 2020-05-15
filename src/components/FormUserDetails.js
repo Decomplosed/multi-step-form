@@ -38,11 +38,7 @@ class FormUserDetails extends Component {
             defaultValue={values.email}
           />
           <br />
-          <RaisedButton
-            label='Continue'
-            variant='primary'
-            style={styles.button}
-          />
+          <RaisedButton label='Continue' primary={true} style={styles.button} />
         </Fragment>
       </MuiThemeProvider>
     )
