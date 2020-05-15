@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import FormUserDetails from './FormUserDetails'
 
 class UserForm extends Component {
   state = {
