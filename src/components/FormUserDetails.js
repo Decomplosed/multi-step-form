@@ -11,6 +11,8 @@ class FormUserDetails extends Component {
   }
 
   render() {
+    const { values } = this.props
+
     return (
       <div>
         <h1>Form User Details</h1>
