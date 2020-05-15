@@ -31,6 +31,12 @@ class FormUserDetails extends Component {
             defaultValue={values.lastName}
           />
           <br />
+          <TextField
+            hintText='Enter your femail address'
+            floatingLabelText='Email'
+            onChange={handleChange('email')}
+            defaultValue={values.email}
+          />
         </Fragment>
       </MuiThemeProvider>
     )
