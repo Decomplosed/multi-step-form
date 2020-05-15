@@ -32,10 +32,16 @@ class FormUserDetails extends Component {
           />
           <br />
           <TextField
-            hintText='Enter your femail address'
+            hintText='Enter your email address'
             floatingLabelText='Email'
             onChange={handleChange('email')}
             defaultValue={values.email}
+          />
+          <br />
+          <RaisedButton
+            label='Continue'
+            variant='primary'
+            style={styles.button}
           />
         </Fragment>
       </MuiThemeProvider>
