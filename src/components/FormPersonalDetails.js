@@ -44,16 +44,16 @@ class FormPersonalDetails extends Component {
           />
           <br />
           <RaisedButton
-            label='Continue'
-            primary={true}
-            style={styles.button}
-            onClick={this.continue}
-          />
-          <RaisedButton
             label='Back'
             primary={false}
             style={styles.button}
             onClick={this.back}
+          />
+          <RaisedButton
+            label='Continue'
+            primary={true}
+            style={styles.button}
+            onClick={this.continue}
           />
         </Fragment>
       </MuiThemeProvider>
