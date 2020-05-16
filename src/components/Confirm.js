@@ -24,33 +24,7 @@ class Confirm extends Component {
       <MuiThemeProvider>
         <Fragment>
           <AppBar title='Confirm User Data' />
-          <TextField
-            hintText='Enter your Occupation'
-            floatingLabelText='Occupation'
-            onChange={handleChange('occupation')}
-            defaultValue={values.occupation}
-          />
           <br />
-          <TextField
-            hintText='Enter your City'
-            floatingLabelText='City'
-            onChange={handleChange('city')}
-            defaultValue={values.city}
-          />
-          <br />
-          <TextField
-            hintText='Enter your Bio'
-            floatingLabelText='Bio'
-            onChange={handleChange('bio')}
-            defaultValue={values.bio}
-          />
-          <br />
-          <RaisedButton
-            label='Back'
-            primary={false}
-            style={styles.button}
-            onClick={this.back}
-          />
           <RaisedButton
             label='Continue'
             primary={true}
