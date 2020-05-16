@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import AppBar from 'material-ui/AppBar'
-import { List, ListItem } from 'material-ui/List'
-import RaisedButton from 'material-ui/RaisedButton'
 
 class Confirm extends Component {
   continue = (e) => {
