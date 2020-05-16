@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import FormUserDetails from './FormUserDetails'
+import FormPersonalDetails from './FormPersonalDetails'
 
 class UserForm extends Component {
   state = {
