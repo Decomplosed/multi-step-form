@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import AppBar from 'material-ui/AppBar'
 
-class Confirm extends Component {
+class Success extends Component {
   continue = (e) => {
     e.preventDefault()
     this.props.nextStep()
@@ -56,4 +56,4 @@ const styles = {
   },
 }
 
-export default Confirm
+export default Success
