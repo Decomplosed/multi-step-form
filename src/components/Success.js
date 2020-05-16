@@ -3,11 +3,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import AppBar from 'material-ui/AppBar'
 
 class Success extends Component {
-  continue = (e) => {
-    e.preventDefault()
-    this.props.nextStep()
-  }
-
   render() {
     const {
       values: { firstName, lastName, email, occupation, city, bio },
