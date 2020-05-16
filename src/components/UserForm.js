@@ -56,7 +56,14 @@ class UserForm extends Component {
           />
         )
       case 3:
-        return <h1>Confirm</h1>
+        return (
+          <Confirm
+            handleChange={this.handleChange}
+            nextStep={this.nextStep}
+            prevStep={this.prevStep}
+            values={values}
+          />
+        )
       case 4:
         return <h1>Success</h1>
       default:
