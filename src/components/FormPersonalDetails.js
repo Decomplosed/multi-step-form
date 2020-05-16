@@ -30,10 +30,10 @@ class FormPersonalDetails extends Component {
           />
           <br />
           <TextField
-            hintText='Enter your last name'
-            floatingLabelText='Last name'
-            onChange={handleChange('lastName')}
-            defaultValue={values.lastName}
+            hintText='Enter your City'
+            floatingLabelText='City'
+            onChange={handleChange('city')}
+            defaultValue={values.city}
           />
           <br />
           <TextField
