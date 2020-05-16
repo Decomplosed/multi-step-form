@@ -26,6 +26,11 @@ class Confirm extends Component {
           <AppBar title='Confirm User Data' />
           <List>
             <ListItem primaryText='First Name' secondaryText={firstName} />
+            <ListItem primaryText='Last Name' secondaryText={lastName} />
+            <ListItem primaryText='Email' secondaryText={email} />
+            <ListItem primaryText='Occupation' secondaryText={occupation} />
+            <ListItem primaryText='City' secondaryText={city} />
+            <ListItem primaryText='Bio' secondaryText={bio} />
           </List>
           <br />
           <RaisedButton
