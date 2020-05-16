@@ -4,10 +4,6 @@ import AppBar from 'material-ui/AppBar'
 
 class Success extends Component {
   render() {
-    const {
-      values: { firstName, lastName, email, occupation, city, bio },
-    } = this.props
-
     return (
       <MuiThemeProvider>
         <Fragment>
