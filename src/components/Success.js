@@ -21,7 +21,7 @@ class Success extends Component {
     return (
       <MuiThemeProvider>
         <Fragment>
-          <AppBar title='Confirm User Data' />
+          <AppBar title='Success' />
         </Fragment>
       </MuiThemeProvider>
     )
