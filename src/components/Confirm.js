@@ -23,7 +23,7 @@ class Confirm extends Component {
     return (
       <MuiThemeProvider>
         <Fragment>
-          <AppBar title='Enter Personal Details' />
+          <AppBar title='Confirm User Data' />
           <TextField
             hintText='Enter your Occupation'
             floatingLabelText='Occupation'
