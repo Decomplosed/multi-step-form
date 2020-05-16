@@ -34,6 +34,13 @@ class Confirm extends Component {
           </List>
           <br />
           <RaisedButton
+            label='Back'
+            primary={false}
+            style={styles.button}
+            onClick={this.back}
+          />
+          <br />
+          <RaisedButton
             label='Confirm & Continue'
             primary={true}
             style={styles.button}
