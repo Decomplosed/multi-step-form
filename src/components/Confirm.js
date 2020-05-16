@@ -24,6 +24,9 @@ class Confirm extends Component {
       <MuiThemeProvider>
         <Fragment>
           <AppBar title='Confirm User Data' />
+          <List>
+            <ListItem primaryText='First Name' secondaryText={firstName} />
+          </List>
           <br />
           <RaisedButton
             label='Continue'
