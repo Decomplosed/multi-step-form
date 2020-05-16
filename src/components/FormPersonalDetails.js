@@ -21,12 +21,12 @@ class FormPersonalDetails extends Component {
     return (
       <MuiThemeProvider>
         <Fragment>
-          <AppBar title='Enter User Details' />
+          <AppBar title='Enter Personal Details' />
           <TextField
-            hintText='Enter your first name'
-            floatingLabelText='First name'
-            onChange={handleChange('firstName')}
-            defaultValue={values.firstName}
+            hintText='Enter your Occupation'
+            floatingLabelText='Occupation'
+            onChange={handleChange('occupation')}
+            defaultValue={values.occupation}
           />
           <br />
           <TextField
