@@ -8,11 +8,6 @@ class Success extends Component {
     this.props.nextStep()
   }
 
-  back = (e) => {
-    e.preventDefault()
-    this.props.prevStep()
-  }
-
   render() {
     const {
       values: { firstName, lastName, email, occupation, city, bio },
