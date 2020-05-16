@@ -58,7 +58,6 @@ class UserForm extends Component {
       case 3:
         return (
           <Confirm
-            handleChange={this.handleChange}
             nextStep={this.nextStep}
             prevStep={this.prevStep}
             values={values}
